@@ -218,8 +218,7 @@ def main(args):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(
-        description='Cache simulator for EECE 7398 Sp16, MP2, P1')
+    parser = argparse.ArgumentParser(description='Simple cache simulator')
     parser.add_argument('trace_a')
     parser.add_argument('trace_b')
     parser.add_argument('--interleave', type=int, default=200000)
